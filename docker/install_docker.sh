@@ -5,5 +5,5 @@ sudo yum makecache fast
 sudo yum install -y docker-ce
 sudo systemctl start docker
 sudo groupadd docker
-sudo usermod -aG docker rlin
+sudo usermod -aG docker $USER
 sudo systemctl enable docker
