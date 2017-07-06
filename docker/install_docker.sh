@@ -7,3 +7,4 @@ systemctl start docker
 groupadd docker
 usermod -aG docker $USER
 systemctl enable docker
+echo -e "\033[31myou have to reboot or logout and login to make it available to run docker without sudo.\033[0m"
